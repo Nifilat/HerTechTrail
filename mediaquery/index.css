@@ -1,0 +1,25 @@
+@media only screen and (min-width: 300px) {
+  .small {
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-color: lightblue;
+  }
+
+  .big {
+    display: none;
+  }
+}
+
+@media only screen and(min-width: 601px) {
+  .small {
+    display: none;
+  }
+
+  .big {
+    width: 200px;
+    height: 200px;
+    display: block;
+    background-color: blue;
+  }
+}
